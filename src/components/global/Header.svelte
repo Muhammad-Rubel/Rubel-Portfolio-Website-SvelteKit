@@ -55,7 +55,7 @@
 	</div>
 
 	{#if showNav}
-		<div class="border absolute top-0 right-0 bg-blue w-[80vw]">
+		<div class="border absolute top-0 right-0 bg-blue w-[80vw] h-screen">
 			<MobileNav />
 		</div>
 	{/if}
