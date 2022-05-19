@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.max-w-1200 {
+	@apply max-w-[75rem] mx-auto;
+}
+
+.custom-transition {
+	@apply transition duration-200 ease-in-out;
+}
