@@ -6,7 +6,6 @@
 
 <div>
 	<Header />
-	<p class="text-6xl text-red-900">Hello from layout</p>
 
 	<slot />
 
