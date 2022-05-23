@@ -1,8 +1,10 @@
 <script>
+	import { slide } from 'svelte/transition';
+
 	import Icons from './Icons.svelte';
 	import MobileNav from './MobileNav.svelte';
 
-	let showNav = true;
+	let showMobileMenu = false;
 	const navItems = [
 		{
 			name: 'Home',
@@ -29,6 +31,8 @@
 			link: '#!'
 		}
 	];
+
+	$: console.log(showMobileMenu);
 </script>
 
 <header class="bg-blue relative">
@@ -38,7 +42,7 @@
 		</a>
 
 		<!-- mobile menu -->
-		<button class="text-light-green lg:hidden">
+		<button class="text-light-green lg:hidden" on:click={() => (showMobileMenu = true)}>
 			<Icons name="menu" />
 		</button>
 
@@ -54,9 +58,9 @@
 		</div>
 	</div>
 
-	{#if showNav}
-		<div class="border absolute top-0 right-0 bg-blue w-[80vw] h-screen">
-			<MobileNav />
+	{#if showMobileMenu}
+		<div transition:slide class="border absolute top-0 right-0 bg-blue w-screen h-screen">
+			<MobileNav on:close={() => (showMobileMenu = false)} />
 		</div>
 	{/if}
 </header>
