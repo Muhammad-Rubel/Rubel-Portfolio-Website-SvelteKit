@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+a, button, input, textarea {
+	@apply focus:outline-none
+}
+
 .max-w-1200 {
 	@apply max-w-[75rem] mx-auto;
 }
