@@ -39,7 +39,7 @@
 	];
 </script>
 
-<section class="max-w-1200 px-4 pt-16 pb-24">
+<section class="max-w-1200 px-4 pt-16 pb-24 xl:py-24">
 	<h2 class="section-title text-center">SERVICES AND SOLUTIONS</h2>
 
 	<div

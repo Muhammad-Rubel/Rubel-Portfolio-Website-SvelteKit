@@ -33,7 +33,7 @@
 	];
 </script>
 
-<section class="bg-light-gray pt-16 pb-24">
+<section class="bg-light-gray pt-16 pb-24 xl:py-24">
 	<div class="max-w-1200 px-4 ">
 		<h2 class="section-title text-center">RECENT WORKS</h2>
 
@@ -41,8 +41,8 @@
 			class="pt-10 space-y-6 md:space-y-0 md:grid grid-cols-2 lg:pt-16 lg:grid-cols-3 gap-10 lg:gap-12"
 		>
 			{#each projects as item}
-				<a href={item.url}>
-					<div class="h-[28rem] overflow-hidden group relative rounded">
+				<div class="h-[28rem] overflow-hidden group relative rounded">
+					<a href={item.url}>
 						<!-- icon -->
 						<img src={item.image} alt="" class="h-full w-full object-cover object-center" />
 
@@ -59,9 +59,17 @@
 								>View details</a
 							>
 						</div>
-					</div>
-				</a>
+					</a>
+				</div>
 			{/each}
+		</div>
+
+		<div class="flex justify-center items-center mt-16">
+			<a
+				href="#!"
+				class="lg:text-lg text-blue font-bold px-6 py-2 border-2 border-blue rounded-full hover:bg-blue hover:text-white custom-transition"
+				>See All Projects</a
+			>
 		</div>
 	</div>
 </section>
