@@ -7,11 +7,11 @@
 	import Testimonial from '../components/homepage/Testimonial.svelte';
 </script>
 
-<div>
+<main class="pt-14">
 	<Hero />
 	<About />
 	<Service />
 	<RecentWorks />
 	<Testimonial />
 	<Contact />
-</div>
+</main>

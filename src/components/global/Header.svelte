@@ -35,7 +35,7 @@
 	$: console.log(showMobileMenu);
 </script>
 
-<header class="bg-blue relative">
+<header class="fixed top-0 left-0 right-0 bg-blue z-50 shadow-lg">
 	<div class="max-w-1200 px-4 p-3 flex justify-between items-center relative">
 		<a href="/" class="text-2xl md:text-3xl font-bold text-white">
 			Muhammad <span class="text-light-green">Rubel</span>
