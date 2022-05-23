@@ -1,4 +1,6 @@
-<section class="max-w-1200 px-4 pt-6 md:pt-12 lg:flex justify-between items-center lg:space-x-8">
+<section
+	class="max-w-1200 px-4 pt-6 md:pt-12 lg:flex justify-between items-center lg:space-x-8 pb-16"
+>
 	<!-- image -->
 	<div class="px-8 flex justify-center lg:w-2/5 lg:justify-start">
 		<img src="/images/profile.png" alt="" class="max-w-[20rem]" />

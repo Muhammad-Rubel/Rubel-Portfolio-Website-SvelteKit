@@ -9,3 +9,15 @@
 .custom-transition {
 	@apply transition duration-200 ease-in-out;
 }
+
+.section-title {
+	@apply text-2xl font-bold text-light-green
+}
+
+.sub-title-1 {
+	@apply text-xl font-bold text-deep-blue
+}
+
+.sub-title-2 {
+	@apply text-xl font-bold text-deep-blue
+}
