@@ -12,7 +12,7 @@ const config = {
 		}),
 		paths: {
 			// eslint-disable-next-line indent
-			base: '/portfolio' // replace with your github repository name
+			base: '/Rubel-Portfolio-Website-SvelteKit' // replace with your github repository name
 		}
 	}
 };
